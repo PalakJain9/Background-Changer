@@ -11,21 +11,12 @@
     <div class="parent_div" id="div_bg">
         <div class="main_div">
             <button id="change">Click</button>
-            <!--<button id="red">Red</button>
-            <button id="blue">Blue</button>
-            <button id="green">Green</button>
-            <button id="laven">Lavender</button>-->
         </div>
     </div>
 
     <script>
         let last_index = 0;
         const colorArr = ["rgb(214, 196, 243)", "rgb(196, 243, 210)", "rgb(243, 205, 196)", "rgb(197, 196, 243)"];
-    
-        /*const btnRed = document.getElementById('red');
-        const btnBlue = document.getElementById('blue');
-        const btnGreen = document.getElementById('green');
-        const btnLav = document.getElementById('laven');*/
 
         const bg = document.getElementById('div_bg');
 
@@ -42,31 +33,7 @@
                     bg.style.backgroundColor = colorArr[++last_index];
                 }
             }
-
-            //rgbvalue1 = getRandomColor();
-            //rgbvalue2 = getRandomColor();
-            //rgbvalue3 = getRandomColor();
-
-            //let finalColor = 'rgb(rgbvalue1, rgbvalue2, rgbvalue3)';
-            //bg.style.backgroundColor = "red";
         });
-
-        /*btnBlue.addEventListener('click', () => {
-            bg.style.backgroundColor = "blue";
-        });
-
-        btnGreen.addEventListener('click', () => {
-            bg.style.backgroundColor = "green";
-        });
-
-        btnLav.addEventListener('click', () => {
-            bg.style.backgroundColor = "rgb(214, 196, 243)";
-        });
-        
-        //function getRandomColor() {
-           // return (Math.floor(Math.random()*256));
-        //} */ 
-        
     </script>
 </body>
 </html>
