@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent_div {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(214, 196, 243);
+}
+
+.main_div button {
+    padding: 1rem;
+    background-color: rgb(213, 224, 224);
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0.2rem 0.3rem 0.2rem rgba(150, 150, 150, 0.5), -0.2rem -0.2rem 0.2rem inset #d7d7d8, -0.2rem -0.2rem 0.2rem #e6e7ee; 
+}
